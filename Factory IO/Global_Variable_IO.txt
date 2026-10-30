@@ -1,0 +1,41 @@
+{attribute 'qualified_only'}
+VAR_GLOBAL
+	
+
+	// bedienkasten 
+	Start_Taster:BOOL; // startet die Anlage.
+	Start_leucht:BOOL; // Anlage betriebbereit ist.
+	Stop_Taster:BOOL; // haltet die Anlage;
+	Stop_leuchte:BOOL; // Anglage ist gehaltet;
+	Reset_Taster:BOOL; // Reset Zahler;
+	
+	Nothalt:BOOL;     // nothalter ;
+	
+	// Wahlschalter
+	Auto_Modus:BOOL;  // Auotmodus ist gewahlt;
+	Handbetreib:BOOL;
+	// Zähler
+	Zahler_blau:INT; // zählt blaue Stucke
+	Zahler_grun:INT; // zahlt greun Stucke
+	
+	Zahler_sensor:BOOL; // sensor zum zahlen an exit
+	
+	// vision sensor;
+	vision_sensor_bit0:BOOL; // vision senosr bit 0
+	vision_sensor_bit1:BOOL; // vision senosr bit 1
+	vision_sensor_bit2:BOOL; // vision senosr bit 2
+	vision_sensor_bit3:BOOL; // vision senosr bit 3
+	
+	
+//Ausgange motor
+    // laufband motor
+	M_einglaufband:BOOL; // eingang laufband motor;
+	M_auslaufband:BOOL; // auslaufband motor;
+	// Sortier band
+	Sortierband_1:BOOL; // dreht nur wenn grune Stucke gibt
+	Sortierband_2:BOOL; // dreht sich wenn Blaue Stucke gibt	
+	
+	M_Sortierband_1:BOOL; // band motor
+	M_Sortierband_2:BOOL; //band motor
+
+END_VAR
