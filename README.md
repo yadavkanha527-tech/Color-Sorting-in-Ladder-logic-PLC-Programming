@@ -4,7 +4,7 @@
 ## Projektbeschreibung
 In diesem Projekt wurde eine automatisierte Farbsortieranlage mit CODESYS und Factory I/O entwickelt und simuliert.
 
-Die Anlage erkennt verschiedene Farben mithilfe von Sensoren und sortiert die Objekte automatisch über ein Förderbandsystem.
+Die Anlage erkennt verschiedene Farben mithilfe von Vision Sensor und sortiert die Objekte automatisch über ein Förderbandsystem.
 
 ## Verwendete Software
 - CODESYS
@@ -15,7 +15,8 @@ Die Anlage erkennt verschiedene Farben mithilfe von Sensoren und sortiert die Ob
 - Farberkennung durch Sensoren
 - SPS-gesteuerte Sortierung
 - Automatische Trennung der Objekte nach Farben
-
+- Nothalt Taster Funktion
+  
 ## Projektstruktur
 - `CODESYS/` – SPS-Programm und globale Variablen
 - `FactoryIO/` – Simulationsdatei der Anlage
